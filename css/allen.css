@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.marque{
+    /* position: fixed; */
+    background-color: rgb(14,48,81);
+    color: white; 
+    padding: 10px;
+    /* font-size: 20px; */
+}
+.second-nav,.right-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51,51,51);
+    font-size: 15px;
+}
+.section{
+    display: flex;
+    margin-top: 1em;
+}
+.imgs{
+    width:50px ;
+    height: 50px;
+    /* margin-left: 3em; */
+}
+.img{
+    width: 30px;
+    height: 30px;
+    /* padding-left: 20px; */
+    /* margin-left: 19em; */
+}
+.second-nav{
+    padding: 5px;
+}
+.right-sub-section{
+    width: 9em;
+}
+
+.loc-icon{
+    width: 3em;
+}
+.stores{
+    width: 8em;
+}
+.log{
+    color: white;
+    margin-left: 2em;
+    margin-top: -17px;
+    display: flex;
+    top: 0px;
+    width: 8em;
+}
+#log{
+    width: 1em;
+}
+
+.LOGIN{
+    width: 5em;
+}
+.address{
+    margin-left:4em;
+   /* text-align: z; */
+    left: 0px;
+    color: white;
+   
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    color: white;
+}
+select{
+    margin-top: 11px;
+    background-color:rgb(51,51,51); 
+    border: 1px solid rgb(51,51,51);
+    color: white;
+    /* padding-top: 2px; */
+    font-size: 15px;
+    border-style: none;
+}
+.firstlist{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    color:rgb(18,51,84);
+    font-size: 12px ;
+    position: relative;
+    width: 1417px;
+    /* margin: 20px; */
+    display: flex;
+    /* position: fixed; */
+
+}
+
+.store-section-list{
+    list-style: none;
+    text-align: left;
+    margin-left: 7em;
+    padding-top: 1em;
+    padding: 5px;
+    font-size: 25px;
+}
+
+
+.hidden-section{
+    /* position: fixed; */
+    overflow: hidden; 
+    height: 0px;
+    opacity: 0;
+    transition:  0.9s ease-in;
+
+}
+ a{
+    color: inherit;
+    text-decoration: none;
+ }
+.text-store:hover ~ .hidden-store-section{
+    height: 25rem;
+    opacity: 1;
+
+}
+.text-store,.text-watch,.text-iphone,.text-ipad,.text-mac,.text-store,.text-entertainment,.text-home,.text-Airpods{
+    margin: 20px;
+}
+#allensolly{
+    width: 148px;
+    height: 58px;
+    text-align: left;
+    display: flex;
+    margin-right: 18em;
+}
+.text-vison{
+    margin-top: 20px;
+}
+.first{
+    width: 1513px;
+    height: 607px;
+    /* margin-top: 3em; */
+}
+.allensolly-main-img{
+    display: flex;
+    /* overflow: auto; */
+    overflow: auto;
+}
+.allen-round-main-imgs{
+    display: flex;
+    width: 2em;
+    margin-left: 2em;
+    margin: 2em;
+}
+.round-img{
+    padding: 20px;
+}
+.round-txt,.round-txt-men{
+    margin-left: 4em;
+}
+.round-txt-summer{
+    margin-left: 2em;
+}
+/* .onapp{
+    background-color: rgb(249,231,159);
+    margin-top: 2em;
+    width: 1000px;
+}
+.onapp-txt{
+    font-size: 23px;
+    margin-top: 1em;
+    padding-top: 3em;
+    /* top: 2em; 
+}
+.onapp-txt-sub{
+    font-size: 15px;
+}
+.usecode{
+    border: 1px dotted black;
+    background-color: rgb(253,225,44);
+    padding: 3px;
+    border-radius: 3px;
+    height: 20px;
+    /* display: flex; 
+}
+.allen-onapp-txt{
+    margin-top: 1em ;
+    margin-left: 2em;
+}
+#qrcode{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+}
+
+.allen-onapp{
+    /* margin-top: 8em; 
+    margin-left: 3em ;
+    line-height: 2em;
+/* }  */
+.allen-sec-available{
+    margin-top: 6em;
+    background-color:rgb(249,231,159); ;
+}
+.usecode-txt{
+    border: 1px dotted black;
+    background-color: rgb(253,225,44);
+    padding: 3px;
+    border-radius: 3px;
+    height: 20px;
+}
+.usecode{
+    display: flex;
+}
+
+.allen-apps{
+    display: flex;
+}
+#divider{
+    /* width: 100%;  */
+    text-align: center;
+    margin-left: 4em;
+    margin-top: 6em;
+}
+.text-allen{
+    text-align: center;
+    font-size: 28px;
+}
+.style{
+    font-size: 15px;
+}
+button{
+    margin: 3em;
+    text-align: center;
+    left: 3em;
+    background-color: white;
+    border: 3px solid white;
+    border-style: none;
+    border-bottom: 1px solid red;
+    
+}
+.allen-tab{
+    text-align: center;
+    overflow: hidden;
+}
+#qrcode{
+    width: 150px;
+    height: 150px;
+}
+.allen-sec-available{
+    display: flex;
+    justify-content: space-evenly;
+}
+.allen-available{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+}
+.allen-qrcode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qrcode{
+    font-size: 10px;
+}
+.allen-delivery-txt{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255,223,0);
+    width: 15em;
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+    justify-content: end;
+    align-items: end;
+
+}
+#van{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 12em;
+    display: flex;
+    bottom: 10px;
+}
+.statment{
+    display: flex;
+}
+#statment{
+    display: flex;
+    overflow: auto;
+}
+.yellow-man{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#yellow-img{
+    width: 525px;
+    height: 525px;
+    position: relative;
+    left:5em ;
+   
+}
+#allen-background-img{
+    position: relative;
+    display: flex;
+    width: 368px;
+    height: 442px;
+    right: 10em;
+}
+.yellowman-center-text{
+    background-color: rgb(223,175,90);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    left: 33em;
+}
+.first-two{
+    position: relative;
+    top: 2em;
+    width: 12em;
+    padding: 10px;
+}
+.center-text-yellow{
+    background-color: rgb(223,175,90);
+    display: grid;
+    grid-template-columns: 200px 200px;
+    position: absolute;
+    left: 2em;
+    width: 32em;    
+}
+h3{
+    text-align: center;
+    width: 10em;
+}
+.allen-secondlast-img{
+    margin-top: 6em;
+    text-align: center;
+    background-color: rgb(14,48,81);
+}
+.allen-secondlast-txt{
+    font-size: 30px;
+    color: yellow;
+}
+.allen-secondlast-txtlinks{
+    margin: 1em;
+    font-size: 20px;
+}
+.text-links{
+    margin: 2em;
+    border-bottom: 1px solid yellow;
+}
+.allen-second-last-img-main{
+    display: flex;
+    overflow: auto;
+}
+.allen-last-sec-main-img{
+    margin-top: 4em;
+    margin-left: 4em;
+    display: flex;
+    /* padding-left: 2em; */
+}
+.last-sec-of-img{
+    display: flex;
+    overflow: auto;
+    left: 1em;
+}
+.mask-img-background{
+    background-color:rgb(14,48,81); 
+    width: 5vw;
+}
+
